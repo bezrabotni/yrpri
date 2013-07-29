@@ -1,0 +1,28 @@
+development:
+  adapter: postgresql
+  encoding: utf8
+  host: localhost
+  collation: utf8_general_ci
+  git_branch: master
+  reconnect: true
+  database: yrpri_dev
+  pool: 5
+  username: puser
+  password: Memory098_
+  airbrake_api_key: 00000000000000000000000000
+  secret_token: xxxxxxxxxxxxxxxxxxxxxxxxxxxx
+  session_key: _your_app_session
+test:
+  adapter: postgresql
+  encoding: utf8
+  host: localhost
+  collation: utf8_general_ci
+  git_branch: master
+  reconnect: true
+  database: yrpri_test
+  pool: 5
+  username: puser
+  password: Memory098_
+  airbrake_api_key: 00000000000000000000000000
+  secret_token: xxxxxxxxxxxxxxxxxxxxxxxxxxxx
+  session_key: _your_app_session
